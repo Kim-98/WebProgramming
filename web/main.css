@@ -1,0 +1,126 @@
+html, body { margin: 0; padding: 0; height: 100%; }
+
+.header { width: 100%; height: 15%; 
+	background: white; 
+	position: fixed;
+    overflow: hidden;
+    z-index: 2;
+}
+.header .Logo {
+    margin: 20px 60px;
+    background-color: white;
+    float: left;
+    padding-right: 130px;
+}
+.header ul { width:100%; height: auto; }
+.header ul li {
+    list-style: none;
+    color: black;
+    background-color: white;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75px;
+    display: block;
+}
+.header .menuLink {
+    text-decoration:none;
+    color: black;
+    display: block;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+.header .menuLink:hover {
+    color: red;
+    background-color: #CCCCCC;
+}
+
+
+.nav { width: 100%; height: 5.5%; float: left; 
+	background: black; color: white;
+	padding-top: 98px;
+}
+.nav ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+.nav .organ ul li { width: 100px; }
+.nav .sns { margin-right: 50px;}
+.nav .sns ul li { width: 30px; float: right; }
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+}
+.nav a:hover { color: magenta; }
+
+
+.section1 { width: 100%; height: 82%; float: left; 
+    margin: 0; padding: 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+.section1 div { display: block; margin: 0px auto; }
+
+
+
+.section2 { width: 100%; height: 50%; float: left; 
+	background-image: url('media/background2.png');
+}
+.section2 div {
+    margin: 40px 70px;
+    width: 40%;
+    float: left;
+    white-space:nowrap;
+}
+.section2 .title {
+    display: block;
+    text-align: center;    
+    padding: 14px 0 15px 0;
+    font-size: 32px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    white-space:nowrap;
+}
+.section2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 40px;
+    padding: 14px;
+    color: black;
+}
+.section2 ul {
+    list-style:square;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.t1 { color: #988CC3; }
+.t2 { color: #F5876E; }
+.section2 li:hover { background-color: bisque; }
+
+
+.section3 { width: 100%; height: 70%; float: left; 
+	background: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer { width: 100%; height: 11%; 
+    clear: both; 
+	background: Gainsboro; 
+}
+.footer img { width: 150px; margin-top: 5px;}
+.footer td {
+		margin-left: 25px;
+		margin-right: 25px;
+        font-size: 12px;
+		width:1500px;
+}

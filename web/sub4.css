@@ -1,0 +1,119 @@
+html, body { margin: 0; padding: 0; height: 100%; }
+
+.header { width: 100%; height: 15%; 
+	background: white; 
+	position: fixed;
+    overflow: hidden;
+    z-index: 2;
+}
+.header .Logo {
+    margin: 20px 60px;
+    background-color: white;
+    float: left;
+    padding-right: 130px;
+}
+.header ul { width:100%; height: auto; }
+.header ul li {
+    list-style: none;
+    color: black;
+    background-color: white;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75px;
+    display: block;
+}
+.header .menuLink {
+    text-decoration:none;
+    color: black;
+    display: block;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+.header .menuLink:hover {
+    color: red;
+    background-color: #CCCCCC;
+}
+
+
+.aside { width: 10%; height: 100%; float: left; 
+    margin-top: 110px;
+    background: white; 
+}
+
+
+.section { width: 80%; height: 120%; float: left; 
+    margin-top: 110px;
+}
+
+.nav { width: 20%; height: 100%; float: left; background: FloralWhite; }
+.nav a {text-decoration: none; color: black;}
+.nav ul ul { display: none; left: 20px; margin-top: 15px;  }
+.nav ul ul li { margin-top: 10px;}
+.nav ul li:hover > ul { display: block; }
+.nav ul { list-style: none;
+    padding: 0px; 
+    position: relative;
+}
+.nav .menu { margin: 60px 30px; }
+.nav .menu:hover { background-color: oldlace; }
+
+
+.header2 { width: 80%; height: 15%; float: left; background: white;}
+.header2 div { text-align: center; }
+.header2 .hr1 {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+.header2 .hr2 { border: solid 1px black; width: 70%; }
+.header2 #title { text-align: center; vertical-align: middle; 
+    font-family: cursive; font-size: 48px;
+    margin: 50px 0px;
+}
+
+.section2 { width: 80%; height: 85%; float: left; background: mintcream;}
+.section2 div { margin: 50px 30px; font-family: monospace; font-size: 16px; 
+    text-align: center; font-weight:bold;
+}
+.section2 img { margin-top: 20px;}
+.section2 div hr { margin: 20px 0px; }
+.section2 #title { font-size: 32px; font-weight: bold;}
+
+.section2 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: beige;
+    vertical-align: middle;
+}
+.section2 table caption {
+    color: crimson;
+    font-size: 25px;
+    margin: 30px;
+    font-weight: bold;
+}
+.section2 tr { height: 35px; }
+.section2 th { background-color: brown; color: white; }
+.section2 tbody tr:hover {
+    background-color: lemonchiffon;
+    color: hotpink;
+}
+.section2 th:active { font-weight: normal; }
+
+
+.footer { width: 100%; height: 11%; 
+    clear: both; 
+	background: Gainsboro; 
+}
+.footer img { width: 150px; margin-top: 5px;}
+.footer td {
+		margin-left: 25px;
+		margin-right: 25px;
+        font-size: 12px;
+		width:1500px;
+}
